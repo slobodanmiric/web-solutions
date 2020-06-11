@@ -96,7 +96,25 @@ about
 /*****************
 services
 *****************/
-
+.services {
+    padding: var(--padding);
+    background: var(--svetloSiva);
+}
+.services article {
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+.services img {
+    width: 100%;
+}
+.services h2 {
+    font-size: 3rem;
+    color: var(--tamnoPlava);
+}
+.services p {
+    padding: 10px 0 30px 0;
+}
 /*****************
 projects
 *****************/
