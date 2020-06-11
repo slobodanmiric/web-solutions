@@ -9,21 +9,54 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
 body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
+    font-size: 16px;
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
 }
-
+button {
+    background: var(--tamnoPlava);
+    border: 1px solid var(--tamnoPlava);
+    color: var(--bela);
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+button:hover {
+    background: var(--bela);
+    color: var(--tamnoPlava);
+    cursor: pointer;
+    box-shadow: 4px 4px var(--tamnoPlava);
+}
 /*****************
 header
 *****************/
+header {
+    background-image: url(img/header.jpg);
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+header hgroup {
+    padding: 20% 0 0 5%;
+}
+header hgroup h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px var(--bela);
+    color: var(--tamnoPlava);
+}
+header hgroup p {
+    font-size: 1.4rem;
+    color: var(--bela);
+    padding-bottom: 30px;
+}
 
 /*****************
 about
