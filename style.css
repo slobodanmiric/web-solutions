@@ -148,7 +148,26 @@ projects
 /*****************
 footer
 *****************/
-
+footer {
+    background: var(--svetloPlava);
+    padding: var(--padding);
+    color: var(--bela);
+}
+footer article {
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+footer h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+footer h3 {
+    font-size: 1.5rem;
+}
+footer h3 + p {
+    padding: 20px 0;
+}
 /*****************
 bootom bar
 *****************/
