@@ -178,6 +178,45 @@ bootom bar
     padding: 30px 0;
 }
 
+/*****************
+responsive
+*****************/
+@media(max-width: 768px) {
+    header hgroup h1 {
+        font-size: 4rem;
+    }
+    header {
+        background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.99)), url(http://127.0.0.1:49743/img/header.jpg);
+        height: 80vh;
+    }
+    header hgroup p {
+        color: var(--tamnoPlava);
+    }
+    .container {
+        width: 90%;
+    }
+    .about article:first-child {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .about article:last-child {
+        width: 100%;
+    }
+    .about article:first-child h2 {
+        font-size: 2rem;
+    }
+    .services article,
+    .projects article,
+    footer article {
+        width: 100%;
+    }
+    .services h2,
+    .projects h2,
+    footer h2 {
+        font-size: 2rem;
+    }
+}
+
 
 
 
