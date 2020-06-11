@@ -35,6 +35,15 @@ button:hover {
     cursor: pointer;
     box-shadow: 4px 4px var(--tamnoPlava);
 }
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
 /*****************
 header
 *****************/
@@ -61,7 +70,29 @@ header hgroup p {
 /*****************
 about
 *****************/
-
+.about {
+    padding: 100px 20px;
+}
+.about article:first-child {
+    float: left;
+    width: 45%;
+}
+.about article:first-child h2 {
+    font-size: 3rem;
+}
+.about article:first-child p {
+    padding-bottom: 20px
+}
+.about article:last-child {
+    float: right;
+    width: 45%;
+    background: var(--svetloPlava);
+    padding: 30px;
+    color: var(--bela);
+}
+.about article:last-child h3 {
+    font-size: 2rem;
+}
 /*****************
 services
 *****************/
